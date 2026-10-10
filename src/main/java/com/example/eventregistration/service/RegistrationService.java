@@ -1,3 +1,4 @@
+
 package com.example.eventregistration.service;
 
 import java.util.List;
@@ -12,7 +13,7 @@ import com.example.eventregistration.entity.Registration;
 public class RegistrationService {
 
     @Autowired
-    RegistrationRepo repo;
+    private RegistrationRepo repo;
 
     public Registration register(Registration registration) {
         return repo.save(registration);
@@ -23,7 +24,11 @@ public class RegistrationService {
     }
 
     public String cancelRegistration(int id) {
+        if (!repo.existsById(id)) {
+            return "Registration not found";
+        }
+
         repo.deleteById(id);
-        return "Registration cancelled";
+        return "Registration cancelled successfully";
     }
 }
