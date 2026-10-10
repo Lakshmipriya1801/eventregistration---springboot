@@ -63,7 +63,7 @@ eventregistration/
 3. Configure the database username and password in `application.properties`:
    ```properties
    spring.datasource.url=jdbc:mysql://localhost:3306/eventregistration_db
-   spring.datasource.username=root
+   spring.datasource.username=YOUR_USERNAME
    spring.datasource.password=YOUR_MYSQL_PASSWORD
    spring.jpa.hibernate.ddl-auto=update
    ```
