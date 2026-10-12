@@ -158,6 +158,32 @@ Use actual user, event, and registration IDs from your database.
 - Performing create, read, and delete operations
 - Testing APIs using Postman
 
+  snapshots
+
+  1. add event-1
+     <img width="1366" height="768" alt="addevent" src="https://github.com/user-attachments/assets/6de28f81-e270-4d9a-8ea0-724a946fe80b" />
+     
+  2. add event-2
+     <img width="1366" height="768" alt="addevent2" src="https://github.com/user-attachments/assets/54dd3da0-7ad7-4738-bcf4-f6cd03dd4739" />
+
+  3. view one event
+     <img width="1366" height="768" alt="viewone-event" src="https://github.com/user-attachments/assets/66e6d222-50b3-4895-8929-1895285813a2" />
+
+  4. view all events
+     <img width="1366" height="768" alt="viewallevents" src="https://github.com/user-attachments/assets/df795973-b7d0-49c7-a841-f9c5f2cfcb47" />
+
+  5. user registration
+      <img width="1366" height="768" alt="reg-user" src="https://github.com/user-attachments/assets/5d7e5a28-c689-4f4f-a2b5-f28e21f961a1" />
+
+  6. user registration for event
+      <img width="1366" height="768" alt="reg user for event" src="https://github.com/user-attachments/assets/3e12666d-719e-4b82-97ac-c85955e35447" />
+
+  7. view user registration
+      <img width="1366" height="768" alt="view user reg" src="https://github.com/user-attachments/assets/3c90c68b-fbad-44ee-b38f-79d4d23c8439" />
+
+  8. cancel registration
+      <img width="1366" height="768" alt="cancel reg" src="https://github.com/user-attachments/assets/dfa1a7dc-2882-4390-8d67-53627b948088" />
+
  🔮 Future Enhancements :
 
 - Add validation for user and event details
